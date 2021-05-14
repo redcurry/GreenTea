@@ -1,0 +1,45 @@
+# User-specific
+
+*.suo
+*.user
+*.userprefs
+xcuserdata/
+
+# Xamarin.Android Resource.Designer.cs files
+**/*.Droid/**/[Rr]esource.[Dd]esigner.cs
+**/*.Android/**/[Rr]esource.[Dd]esigner.cs
+**/Android/**/[Rr]esource.[Dd]esigner.cs
+**/Droid/**/[Rr]esource.[Dd]esigner.cs
+
+# Xamarin Components
+Components/
+
+# Build results
+
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# C++ libraries
+
+*.a
+*.so
+
+# Visual Studio cache
+
+*.vs
+
+#JetBrains
+.idea/
+
+# NuGet
+
+[Pp]ackages/
+
+# Mac-specific
+
+.DS_Store
+
+# Vim temp files
+*.swp
