@@ -1,6 +1,5 @@
-﻿using System;
+﻿using GreenTea.ViewModels;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace GreenTea
 {
@@ -11,6 +10,7 @@ namespace GreenTea
             InitializeComponent();
 
             MainPage = new MainPage();
+            MainPage.BindingContext = new MainViewModel();
         }
 
         protected override void OnStart()

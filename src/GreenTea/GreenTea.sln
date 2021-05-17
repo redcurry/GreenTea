@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenTea.Android", "GreenTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenTea", "GreenTea\GreenTea\GreenTea.csproj", "{A78A490F-97DB-4CF2-A7C8-C458C9FA83F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenTea.Common", "GreenTea.Common\GreenTea.Common.csproj", "{1658F251-5671-4884-9A9E-01F9382A73E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{A78A490F-97DB-4CF2-A7C8-C458C9FA83F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A78A490F-97DB-4CF2-A7C8-C458C9FA83F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A78A490F-97DB-4CF2-A7C8-C458C9FA83F4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1658F251-5671-4884-9A9E-01F9382A73E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1658F251-5671-4884-9A9E-01F9382A73E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1658F251-5671-4884-9A9E-01F9382A73E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1658F251-5671-4884-9A9E-01F9382A73E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
