@@ -8,9 +8,19 @@
     >
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="200" />
+        </Grid.ColumnDefinitions>
+
         <sk:SKCanvasView
             x:Name="CanvasView"
             PaintSurface="SKCanvasView_OnPaintSurface"
+            />
+
+        <Button Grid.Column="1"
+            Text="Take Picture"
+            Command="{Binding TakePictureCommand}"
             />
     </Grid>
 

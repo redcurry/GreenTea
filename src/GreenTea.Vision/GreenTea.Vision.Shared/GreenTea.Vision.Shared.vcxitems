@@ -15,8 +15,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)Vision.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VisionInterop.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)Vision.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VisionInterop.cpp" />
   </ItemGroup>
 </Project>

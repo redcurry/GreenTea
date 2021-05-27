@@ -138,6 +138,9 @@
       <AdditionalOptions>-lm</AdditionalOptions>
       <AdditionalDependencies>%OPENCV_ANDROID%\sdk\native\libs\x86_64\libopencv_java4.so</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)$(Platform)\$(Configuration)\$(TargetFileName)" "$(SolutionDir)..\GreenTea\GreenTea\GreenTea.Android\lib\$(TargetArchAbi)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -151,6 +154,9 @@
       <AdditionalOptions>-lm</AdditionalOptions>
       <AdditionalDependencies>%OPENCV_ANDROID%\sdk\native\libs\x86_64\libopencv_java4.so</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)$(Platform)\$(Configuration)\$(TargetFileName)" "$(SolutionDir)..\GreenTea\GreenTea\GreenTea.Android\lib\$(TargetArchAbi)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
     <ClCompile>
@@ -164,6 +170,9 @@
       <AdditionalDependencies>%OPENCV_ANDROID%\sdk\native\libs\x86\libopencv_java4.so</AdditionalDependencies>
       <AdditionalOptions>-lm</AdditionalOptions>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)$(Platform)\$(Configuration)\$(TargetFileName)" "$(SolutionDir)..\GreenTea\GreenTea\GreenTea.Android\lib\$(TargetArchAbi)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <ClCompile>
@@ -177,6 +186,9 @@
       <AdditionalOptions>-lm</AdditionalOptions>
       <AdditionalDependencies>%OPENCV_ANDROID%\sdk\native\libs\x86\libopencv_java4.so</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)$(Platform)\$(Configuration)\$(TargetFileName)" "$(SolutionDir)..\GreenTea\GreenTea\GreenTea.Android\lib\$(TargetArchAbi)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <ClCompile>
@@ -190,6 +202,9 @@
       <AdditionalOptions>-lm</AdditionalOptions>
       <AdditionalDependencies>%OPENCV_ANDROID%\sdk\native\libs\arm64-v8a\libopencv_java4.so</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)$(Platform)\$(Configuration)\$(TargetFileName)" "$(SolutionDir)..\GreenTea\GreenTea\GreenTea.Android\lib\$(TargetArchAbi)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
     <ClCompile>
@@ -203,6 +218,9 @@
       <AdditionalOptions>-lm</AdditionalOptions>
       <AdditionalDependencies>%OPENCV_ANDROID%\sdk\native\libs\arm64-v8a\libopencv_java4.so</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)$(Platform)\$(Configuration)\$(TargetFileName)" "$(SolutionDir)..\GreenTea\GreenTea\GreenTea.Android\lib\$(TargetArchAbi)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
@@ -216,6 +234,9 @@
       <AdditionalOptions>-lm</AdditionalOptions>
       <AdditionalDependencies>%OPENCV_ANDROID%\sdk\native\libs\armeabi-v7a\libopencv_java4.so</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)$(Platform)\$(Configuration)\$(TargetFileName)" "$(SolutionDir)..\GreenTea\GreenTea\GreenTea.Android\lib\$(TargetArchAbi)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <ClCompile>
@@ -229,6 +250,9 @@
       <AdditionalOptions>-lm</AdditionalOptions>
       <AdditionalDependencies>%OPENCV_ANDROID%\sdk\native\libs\armeabi-v7a\libopencv_java4.so</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)$(Platform)\$(Configuration)\$(TargetFileName)" "$(SolutionDir)..\GreenTea\GreenTea\GreenTea.Android\lib\$(TargetArchAbi)"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
